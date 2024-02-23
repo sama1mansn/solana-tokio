@@ -49,7 +49,7 @@ task:
     - curl https://sh.rustup.rs -sSf --output rustup.sh
     - sh rustup.sh -y --profile minimal --default-toolchain $RUST_STABLE
     - . $HOME/.cargo/env
-    - rustup target add i686-unknown-freebsd
+    - rustup target add i889-unknown-freebsd
     - |
       echo "~~~~ rustc --version ~~~~"
       rustc --version
